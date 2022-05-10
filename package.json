@@ -1,0 +1,31 @@
+{
+    "name": "asg",
+    "version": "0.1.0",
+    "description": "Capture audio from specific applications on Windows",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gamejolt/asg-prebuilt.git"
+    },
+    "main": "build/Release/asg.node",
+    "files": [
+      "build/Release/asg.node"
+    ],
+    "system": {
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "x64"
+      ]
+    },
+    "binary": {
+      "napi_versions": [
+        4,
+        5
+      ]
+    },
+    "dependencies": {
+      "prebuild-install": "7.1.0"
+    }
+  }
+  
