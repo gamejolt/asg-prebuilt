@@ -1,6 +1,6 @@
 {
   "name": "asg-prebuilt",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Capture audio from specific applications on Windows",
   "repository": {
     "type": "git",
